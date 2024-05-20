@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	/* background-color:#F2F2F2;
+	color:#4D4D4D; */
+	background-color:#000000;
+	color:#ffffff;
+	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
+	margin: 1em;
+}
+
+section {
+	margin:1em;
+	padding: 1em;
+	min-width: 12em;
+}
+
+h1 {
+	font-family:Segoe Script, Verdana, Geneva, sans-serif;
+	font-size:2rem;
+	margin: .2em 0;
+}
+
+p {
+	font-size: 1.5rem;
+	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
+}
+
+/*  ____________________________________  */
+/* |                                    | */
+/* |-----> Navigarion Bar & Logoo <-----| */
+/* |____________________________________| */
+
+
+header {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Handshake_Logo {
+	height:3em;
+	width:12em;
+}
+
+a {
+	/* color: #4D4D4D; */
+	color:#ffffff;
+	cursor:pointer;
+}
+
+a:hover {
+	/* color: hsl(43, 74%, 49%); */
+	color: gold;
+}
+
+ul {
+	list-style-type:none;
+}
+
+li {
+	margin:.5em;
+	display: inline;
+	font-size: 1rem;
+}
+
+/*  _______________________________________________  */
+/* |                                               | */
+/* |-----> P1-Section 1: Our Values & Button <-----| */
+/* |_______________________________________________| */
+
+.column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.column > p:first-child {
+	width: 30em;
+	align-self:start;
+}
+
+.Sandwich{
+	height:11em;
+	width:18em;
+	margin:auto;
+}
+
+.New_Snack {
+	display: flex;
+	flex-direction: column;
+}
+
+.New_Snack > p {
+	font-family:Segoe UI,Verdana, Geneva, sans-serif;
+	font-size:1.5rem;
+	font-style:italic;
+	margin: 0;
+}
+
+span{
+	color: hsl(51, 100%, 50%);
+}
+
+.New_Snack button {
+	background-color: hsl(51, 100%, 50%);
+	font-family:Segoe UI,Verdana, Geneva, sans-serif;
+	font-size:1.1rem;
+	font-style:italic;
+	text-align:center;
+	color:#000;
+	border:transparent;
+	padding:0.5em 0.5em;
+	transition:background-color 0.5s, color 0.5s;
+	cursor:pointer;
+	width:100%;
+}
+
+.New_Snack button:hover {
+	background-color:#000;
+	color: gold;
+}
+
+/*  _______________________________________  */
+/* |                                       | */
+/* |-----> P1-Section 2: Latest Blog <-----| */
+/* |_______________________________________| */
+
+
+.column > p:nth-child(2){
+	align-self:start;
+	margin: auto;
+}
+
+figure {
+	margin:auto 1em;
+}
+
+img.Blog_img {
+	height:14em;
+	width:11em;
+}
+
+figcaption {
+	margin: .5em auto;
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+/*  ________________________________  */
+/* |                                | */
+/* |-----> P1-Section 3: FAQs <-----| */
+/* |________________________________| */
+
+ol:nth-of-type(odd) {
+	font-size: 1.5rem;
+	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	color: gold;
+}
+ol:nth-of-type(even) {
+	font-size: 1.2rem;
+	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
+}
+
+/*  ____________________  */
+/* |                    | */
+/* |-----> Footer <-----| */
+/* |____________________| */
+
+.Copyright_Nav {
+	display:flex;
+	justify-content: space-between;
+	margin: 1em;
+}
+
+.Copyright_Nav p {
+	font-size:1rem;
+}
+
+.Call_Email {
+	margin:1em;
+}
+
+/*  ________________________________________  */
+/* |                                        | */
+/* |-----> P2-Section 1: Blog Banners <-----| */
+/* |________________________________________| */
+
+.Section_1_Blogs {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.HS_New_Blogs_Page {
+	width:45em;
+	height:10em;
+	position:relative;
+	margin:2em;
+}
+
+.HS_New_Blogs_Page img{
+	height:100%;
+	width:100%;
+}
+
+.HS_New_Blogs_Page--black {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.HS_New_Blogs_Page--black:hover {
+	opacity:1;
+}
+
+
+/*  ____________________________________  */
+/* |                                    | */
+/* |-----> P3-Section 1: Shop Menu<-----| */
+/* |____________________________________| */
+
+.Shop_Menu_Image {
+	height:60em;
+	width:35em;
+	margin:1em 22em;
+}
+
+/*  _________________________________  */
+/* |                                 | */
+/* |-----> P4-Section 1: Forms <-----| */
+/* |_________________________________| */
+
+
+label{
+	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+	font-size:1.3rem;
+	margin: 1em 0;
+}
+
+#name, #email, #msg, #pn, #pw {
+	font-size: 1.3rem;
+	border: #555;
+	color: #111;
+	background-color: #e4e3e3;
+}
+
+form {
+	display:flex;
+	flex-direction: column;
+	padding:1em;
+}
+
+textarea {
+	width:16em;
+	height:5em;
+}
+
+fieldset {
+	background-color: hsla(40, 100%, 50%, 0.4);
+}
+
+.fieldsets-forms {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.right p {
+	display: none;
+}
+
+.CF {
+	background-color :hsl(51, 100%, 50%);
+	color:black;
+	padding:0.2em 1em;
+	margin:1em;
+	cursor:pointer;
+	border:transparent;
+	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+	font-size:1.3rem;
+	font-style:italic;
+	max-width: 7em;
+
+}
+
+button.CF:hover {
+	background-color:#000000;
+	color: gold;
+}
+
+/*  ________________________________________  */
+/* |                                        | */
+/* |-----> P4-Section 2: Social Media <-----| */
+/* |________________________________________| */
+
+.Follow_SM {
+	margin-top:1em;
+}
+.Section_3_Follow_SM {
+	display:flex;
+	gap:0.5em;
+}
+
+.SM {
+	height:2em;
+	width:2em;
+	position:relative;
+	cursor:pointer;
+	margin:0.2em;
+}
+
+.SM img{
+	height:100%;
+	width:100%;
+}
+
+.Icon-colour {
+	position:absolute;
+	top:0em;
+	left:0em;
+	bottom:0em;
+	right:0em;
+	opacity:0;
+	transition:opacity 0.5s ease;
+}
+
+.Icon-colour:hover {
+	opacity:1;
+}
+
+
+.contact-info:nth-of-type(2) {
+	display: none;
+}
+
+
+

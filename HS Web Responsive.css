@@ -1,0 +1,182 @@
+/*MOBILE*/
+@media (max-width: 480px) {
+	
+    header {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .Handshake_Logo {
+        display: block;
+        height:6em;
+        width:15em;
+        margin: auto;
+    }
+    
+    section {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    section > h1:nth-of-type(2) {
+        margin-bottom: 3em;
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .column > p{
+        text-align: center;
+        max-width: 11em;
+        margin: auto;
+    }
+    
+    .Sandwich{
+        height:9em;
+        width:16em;
+        margin:.5em auto;
+    }
+
+    .New_Snack > p {
+        font-size:1rem;
+    }
+
+    .New_Snack button {    
+        width:16em;
+    }
+
+    ol {
+        margin-right: 2em;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .Copyright_Nav {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    hr {
+        max-width: 100%;
+        margin: 0;
+    }
+
+    figure {
+        margin-top: 1.5em;
+    }
+
+    .HS_New_Blogs_Page {
+        width:20em;
+        height:4em;
+        margin: 1em 0;
+    }
+
+    .Shop_Menu_Image {
+        height:25em;
+        width:17em;
+        margin:0;
+    }
+    
+    label{
+        font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
+        display: block;
+        margin: auto;
+    }
+        
+    form {
+        display:block;
+        padding:1em;
+        margin: auto;
+    }
+
+    #name, #email, #pn, #pn, #msg #pw {
+        margin: .7em auto;
+    } 
+
+    .CF{
+        margin: 1em auto;
+    }
+    
+    textarea {
+        width:10em;
+        height:4em;
+    }
+    
+    .Handshake--SM .Section_3_Follow_SM{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .contact-info:nth-of-type(2) {
+        display: block;
+    }
+
+    .contact-info:nth-of-type(1) {
+        display: none;
+    }
+
+    .fieldsets-forms {
+        flex-direction: column;
+    }
+
+    .right p {
+        display: block;
+    }
+
+    .LogoNav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+    }
+    
+}
+
+/*TABLET*/
+@media (max-width: 730px) {
+    .column {
+        display: flex;
+        gap: 2em;
+    }
+
+    .New_Snack > p {
+        font-size:1.4rem;
+    }
+
+    .New_Snack {
+        gap: 1em;
+    }
+
+    .fieldsets-forms {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .HS_New_Blogs_Page {
+        width:34em;
+        height:7em;
+    }
+
+    .Shop_Menu_Image {
+        display: block;
+        height:35em;
+        width:25em;
+        margin:auto;
+    }
+}
+
