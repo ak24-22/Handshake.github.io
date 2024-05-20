@@ -37,10 +37,10 @@
 }
 
 body {
-	/* background-color:#F2F2F2;
-	color:#4D4D4D; */
-	background-color:#000000;
-	color:#ffffff;
+	background-color:hsl(0, 0%, 95%);
+	color:hsl(0, 0%, 30%);
+	/* background-color:hsl(0, 0%, 0%);
+	color:hsl(0, 0%, 100%); */
 	font-family:Futura Bk BT, Verdana, Geneva, sans-serif;
 	margin: 1em;
 }
@@ -80,14 +80,14 @@ header {
 }
 
 a {
-	/* color: #4D4D4D; */
-	color:#ffffff;
+	color: hsl(0, 0%, 30%);
+	/* color:#ffffff; */
 	cursor:pointer;
 }
 
 a:hover {
-	/* color: hsl(43, 74%, 49%); */
-	color: gold;
+	color: hsl(46, 96%, 33%);
+	/* color: gold; */
 }
 
 ul {
@@ -135,11 +135,11 @@ li {
 }
 
 span{
-	color: hsl(51, 100%, 50%);
+	color: hsl(46, 96%, 33%);
 }
 
 .New_Snack button {
-	background-color: hsl(51, 100%, 50%);
+	background-color: hsl(46, 96%, 33%);
 	font-family:Segoe UI,Verdana, Geneva, sans-serif;
 	font-size:1.1rem;
 	font-style:italic;
@@ -153,8 +153,8 @@ span{
 }
 
 .New_Snack button:hover {
-	background-color:#000;
-	color: gold;
+	background-color:hsl(0, 0%, 0%);
+	color: hsl(46, 96%, 33%);
 }
 
 /*  _______________________________________  */
@@ -192,7 +192,8 @@ ol:nth-of-type(odd) {
 	font-size: 1.5rem;
 	font-family:Futura Hv BT, Verdana, Geneva, sans-serif;
 	font-weight: bold;
-	color: gold;
+	color: hsl(46, 96%, 33%);
+	/* color: gold; */
 }
 ol:nth-of-type(even) {
 	font-size: 1.2rem;
