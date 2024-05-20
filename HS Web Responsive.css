@@ -150,6 +150,7 @@
 @media (max-width: 730px) {
     .column {
         display: flex;
+        justify-content: center;
         gap: 2em;
     }
 
