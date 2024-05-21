@@ -37,7 +37,7 @@
 }
 
 body {
-	background-color:hsl(0, 0%, 95%);
+	background-color:hsl(0, 0%, 90%);
 	color:hsl(0, 0%, 30%);
 	/* background-color:hsl(0, 0%, 0%);
 	color:hsl(0, 0%, 100%); */
@@ -109,6 +109,7 @@ li {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	gap: 1em;
 }
 
 .column > p:first-child {
@@ -125,11 +126,12 @@ li {
 .New_Snack {
 	display: flex;
 	flex-direction: column;
+	gap: 1em;
 }
 
 .New_Snack > p {
 	font-family:Segoe UI,Verdana, Geneva, sans-serif;
-	font-size:1.5rem;
+	font-size:1.4rem;
 	font-style:italic;
 	margin: 0;
 }
@@ -140,11 +142,11 @@ span{
 
 .New_Snack button {
 	background-color: hsl(46, 96%, 33%);
+	color:hsl(0, 0%, 90%);
 	font-family:Segoe UI,Verdana, Geneva, sans-serif;
 	font-size:1.1rem;
 	font-style:italic;
 	text-align:center;
-	color:#000;
 	border:transparent;
 	padding:0.5em 0.5em;
 	transition:background-color 0.5s, color 0.5s;
@@ -153,9 +155,9 @@ span{
 }
 
 .New_Snack button:hover {
-	background-color:hsl(0, 0%, 0%);
-	color: hsl(46, 96%, 33%);
+	background-color: hsl(46, 96%, 25%);
 }
+
 
 /*  _______________________________________  */
 /* |                                       | */
@@ -278,6 +280,7 @@ label{
 	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
 	font-size:1.3rem;
 	margin: 1em 0;
+	color: hsl(46, 96%, 33%);
 }
 
 #name, #email, #msg, #pn, #pw {
@@ -299,13 +302,14 @@ textarea {
 }
 
 fieldset {
-	background-color: hsla(40, 100%, 50%, 0.4);
+	background-color: hsl(0, 0%, 19%);
 }
 
 .fieldsets-forms {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	gap: 2em;
 }
 
 .right p {
@@ -313,10 +317,10 @@ fieldset {
 }
 
 .CF {
-	background-color :hsl(51, 100%, 50%);
-	color:black;
+	background-color: hsl(46, 96%, 33%);
+	color:hsl(0, 0%, 90%);
 	padding:0.2em 1em;
-	margin:1em;
+	margin:1em auto;
 	cursor:pointer;
 	border:transparent;
 	font-family:Futura Hv BT,Verdana, Geneva, sans-serif;
@@ -328,8 +332,11 @@ fieldset {
 
 button.CF:hover {
 	background-color:#000000;
-	color: gold;
+	color: hsl(46, 96%, 33%);
 }
+
+
+
 
 /*  ________________________________________  */
 /* |                                        | */
