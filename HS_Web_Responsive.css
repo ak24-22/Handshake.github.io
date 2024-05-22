@@ -1,4 +1,29 @@
-@media (max-width: 25em) {
+/*TABLET*/
+@media (max-width: 75em) {
+	
+    .column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .Shop_Menu_Image {
+        height:60em;
+        width:35em;
+        margin:0;
+    }
+
+    .fieldsets-forms {
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+
+    }
+}
+
+/*MOBILE*/
+@media (max-width: 480px) {
 	
     header {
         display: block;
