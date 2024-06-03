@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Menu.css" />
+  </head>
+  <body>
+    <!-- 'How to make a form' notes underneath HTML code-->
+    <fieldset>
+      <div class="form_main_title">
+        <h1>Fast Food Menu</h1>
+      </div>
+      <form>
+        <div class="encryption">
+          <h2>Enter your DetailsL:</h2>
+          <label>Name:</label>
+          <input for="name" type="text" name="name" id="name" required/>
+          <label>Email:</label>
+          <input for="email" type="text" name="email" id="email" required/>
+          <label>Phone Number:</label>
+          <input for="phone no" type="number" name="=phone no" id="phone no" required />
+        </div>
+        <div class="Main">
+          <h2>Main</h2>
+          <label>Pizza</label>
+          <input for="pizza" type="checkbox" name="pizza" id="pizza" />
+          <label>Burger</label>
+          <input for="burger" type="checkbox" name="burger" id="burger" />
+          <label>Chicken & Chips</label>
+          <input
+            for="chicken_cHips"
+            type="checkbox"
+            name="chicken_cHips"
+            id="chicken_cHips"
+          />
+        </div>
+        <div class="drinks">
+          <h2>Drinks</h2>
+          <label>Pepsi</label>
+          <input for="pepsi" type="checkbox" name="pepsi" id="pepsi" />
+          <label>Sprite</label>
+          <input for="sprite" type="checkbox" name="sprite" id="sprite" />
+          <label>Fanta</label>
+          <input for="fanta" type="checkbox" name="fanta" id="fanta" />
+        </div>
+        <div class="desserts">
+          <h2>Desserts</h2>
+          <label>Cheesecake</label>
+          <input for="pepsi" type="checkbox" name="pepsi" id="pepsi" />
+          <label>Cake</label>
+          <input for="sprite" type="checkbox" name="sprite" id="sprite" />
+          <label>Trifle</label>
+          <input for="fanta" type="checkbox" name="fanta" id="fanta" />
+        </div>
+        <div class="extra">
+          <h2>Extra</h2>
+          <label>Chips</label>
+          <input for="chips" type="checkbox" name="chips" id="chips" />
+          <label>Chicken</label>
+          <input for="chicken" type="checkbox" name="chicken" id="chicken" />
+          <label>Kebab/Sausage</label>
+          <input
+            for="kebab_sausage"
+            type="checkbox"
+            name="kebab_sausage"
+            id="kebab_sausage"
+          />
+        </div>
+        <div class="spice">
+          <h2>Spicy or Mild</h2>
+          <label>Spicy</label>
+          <input for="spicy" type="radio" name="spicy" id="spicy" />
+          <label>Mild</label>
+          <input for="mild" type="radio" name="mild" id="mild" />
+        </div>
+        <div class="submit_btn">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </fieldset>
+  </body>
+</html>
+
+<!-- 
+                                                
++++++++++++++++++++++++++++++++++++++++++++++++++++|NOTES|++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Some forms may have the following:
+
+    <form
+      action="/example.html" method="POST">
+    </form>
+
+    The method="post" indicates that the form data will be transmitted securely to the server for processing.
+                
+    The action="example.html" specifies the destination page or script where form data will be sent after submission.
+--------------------------------------------------------------------------------------------------------------
+    ATTRIBUTES
+
+      = The 'name' attribute inside the input element is needed as it sends the info to the form when it is submitted
+
+      = The 'id' & 'for' attributes are needed to connected and link the <label></Label> and <input/> elements together
+    
+      = The attribute of 'type="password"' will transform each character into either '*' or '.'
+
+      = The attribute of 'type="numbers"' will only show numbers and a few special characters like '-' or '+' or '.'
+    
+      = The attribute of 'type="range"' will allow you to make sliders by giving a 'min' & 'max' value 
+--------------------------------------------------------------------------------------------------------------
+    INPUT TYPES
+    
+      = To get Ticks do 'type="checkbox', generally used to allow users to select more than 1 item within a list of items
+
+      = To get Buttons do 'types=radio', generally used to allow users to select only 1 item in the list
+     
+      = To get a Dropdown Menu do '<select>' and then do '<option></option>' to create a list, these are similar to radio buttons but more in a more organised format, to have an item selceted already use the keyword 'selected'
+    
+      = To make the Dropdown Menu easier for users add the element '<datalist></datalist', this allows users to type what they want within the list
+
+      = To get more info from users in a form, use '<textarea></teatarea>' and then add 'col' & 'row' to make the textbox bigger
+     
+      = To get a Submit Button do 'type="submit"' and name the button  'value="submit"'
+--------------------------------------------------------------------------------------------------------------
+    VALIDATION
+    
+      = Using the the keyword 'required' and the end of the '<input />' element implies the a specific field in the form must be completed before moving on, this keyword can be used in any input type attribute
+
+      = The 'minlength' & 'maxlength' are built-in attributes in HTML5 and are used in terms of validation and are used to control how many charcters a users types
+      
+      = The 'pattern' attribute can be used in few ways but in terms of submitting a form it is mainly used to control what the user types
+
+-->

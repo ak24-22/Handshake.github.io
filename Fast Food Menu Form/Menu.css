@@ -1,0 +1,14 @@
+body {
+    background-color:rgb(1, 37, 61);
+    color: #ffca37;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+fieldset {
+    background-color: rgba(130, 210, 90, 0.1);
+    text-align: center;
+}
+
+.submit_btn {
+    margin: 1em;
+}
